@@ -21,7 +21,7 @@ const Home = ({navigation}) => {
       url: 'https://tasty.p.rapidapi.com/recipes/list',
       params: {from: '0', size: '20', tags: 'under_30_minutes'},
       headers: {
-        'X-RapidAPI-Key': '17efed119cmsh2436f993a6e5d22p1c0fc9jsn2f53a0d28f39',
+        'X-RapidAPI-Key': 'Insert secret key',
         'X-RapidAPI-Host': 'tasty.p.rapidapi.com',
       },
     };
